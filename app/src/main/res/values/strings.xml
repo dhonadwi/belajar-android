@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movie Lite</string>
+    <string name="lewati_perkenalan">Lewati Perkenalan</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="now_playing_desc">Lebih mudah untuk mengetahui\nFilm yang sedang tampil</string>
+    <string name="pre_sale">Pre Sale</string>
+    <string name="pre_sale_desc">Tidak khawatir ketinggalan\nupdate Film terbaru</string>
+    <string name="cahshless">Cashless</string>
+    <string name="cashless_desc">Gunakan e-wallet untuk\ntransaksi tiket nonton</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="upload_nani">Upload Nanti</string>
+    <string name="photo">Photo</string>
+    <string name="selamat_datang">Selamat Datang\nDhona Dwi</string>
+    <string name="simpan_dan_lanjutkan"><![CDATA[Simpan & Lanjutkan]]></string>
+    <string name="coming_soon">Coming Soon</string>
+</resources>

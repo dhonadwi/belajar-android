@@ -1,7 +1,8 @@
-package com.odonapp.movielite
+package com.odonapp.movielite.sign
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.odonapp.movielite.R
 
 class SignUpPhotoscreenActivity : AppCompatActivity() {
 

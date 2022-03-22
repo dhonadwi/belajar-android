@@ -1,12 +1,13 @@
-package com.odonapp.movielite
+package com.odonapp.movielite.sign
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.odonapp.movielite.R
 
-class SignInActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_in)
+        setContentView(R.layout.activity_sign_up)
     }
 }

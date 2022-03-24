@@ -3,12 +3,9 @@ package com.odonapp.movielite.sign.signup
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.renderscript.Sampler
 import android.widget.Toast
-import com.google.firebase.FirebaseApp
 import com.google.firebase.database.*
 import com.odonapp.movielite.R
-import com.odonapp.movielite.sign.SignUpPhotoscreenActivity
 import com.odonapp.movielite.sign.signin.User
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
@@ -81,7 +78,8 @@ class SignUpActivity : AppCompatActivity() {
                 if(user == null) {
                     mDatabaseReference.child(sUsername).setValue(data)
 
-                    var goSignUp = Intent(this@SignUpActivity,SignUpPhotoscreenActivity::class.java).putExtra("nama", data?.nama)
+                    var goSignUp = Intent(this@SignUpActivity,
+                        SignUpPhotoscreenActivity::class.java).putExtra("nama", data?.nama)
                     startActivity(goSignUp)
 
                 } else {

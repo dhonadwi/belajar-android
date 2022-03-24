@@ -1,4 +1,4 @@
-package com.odonapp.movielite.sign
+package com.odonapp.movielite.sign.signup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

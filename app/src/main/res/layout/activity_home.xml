@@ -109,6 +109,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/iv_logout"
             android:padding="10dp"
             android:src="@drawable/ic_profile"
             android:layout_width="0dp"

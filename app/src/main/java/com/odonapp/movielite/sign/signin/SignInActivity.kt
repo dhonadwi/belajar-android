@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
 import com.odonapp.movielite.HomeActivity
 import com.odonapp.movielite.R
-import com.odonapp.movielite.sign.SignUpActivity
+import com.odonapp.movielite.sign.signup.SignUpActivity
 import com.odonapp.movielite.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
@@ -52,7 +52,8 @@ class SignInActivity : AppCompatActivity() {
         }
 
         btn_sign_up.setOnClickListener {
-            var goSignUp = Intent(this@SignInActivity,SignUpActivity::class.java)
+            var goSignUp = Intent(this@SignInActivity,
+                SignUpActivity::class.java)
             startActivity(goSignUp)
         }
     }

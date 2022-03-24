@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "660795029192",
+    "firebase_url": "https://movie-lite-404-default-rtdb.firebaseio.com",
+    "project_id": "movie-lite-404",
+    "storage_bucket": "movie-lite-404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660795029192:android:2c465bdf8f23fb16bad7fd",
+        "android_client_info": {
+          "package_name": "com.odonapp.movielite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660795029192-9ts59bc3lu62r85pes7tqm840o0t62rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfGzSV_B0oZNPaLLcqYye7-lRdGuBKCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660795029192-9ts59bc3lu62r85pes7tqm840o0t62rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

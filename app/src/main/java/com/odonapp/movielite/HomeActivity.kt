@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
 
         preferences = Preferences(this)
 
-        iv_logout.setOnClickListener {
+        iv_menu3.setOnClickListener {
             finishAffinity()
             preferences.setValues("onboarding", "0")
             preferences.setValues("status","0")

@@ -97,19 +97,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
         <ImageView
+            android:id="@+id/iv_menu1"
             android:padding="10dp"
             android:src="@drawable/ic_home_active"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/iv_menu2"
             android:padding="10dp"
             android:src="@drawable/ic_tiket"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
         <ImageView
-            android:id="@+id/iv_logout"
+            android:id="@+id/iv_menu3"
             android:padding="10dp"
             android:src="@drawable/ic_profile"
             android:layout_width="0dp"

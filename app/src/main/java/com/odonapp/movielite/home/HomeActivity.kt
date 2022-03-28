@@ -1,14 +1,11 @@
 package com.odonapp.movielite.home
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.odonapp.movielite.R
-import com.odonapp.movielite.sign.signin.SignInActivity
-import com.odonapp.movielite.sign.signup.SignUpPhotoscreenActivity
+import com.odonapp.movielite.home.dashboard.DashboardFragment
 import com.odonapp.movielite.utils.Preferences
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -22,7 +19,8 @@ class HomeActivity : AppCompatActivity() {
 
         val fragmentTicket = TicketFragment()
         val fragmentSetting = SettingFragment()
-        val fragmentHome = DashboardFragment()
+        val fragmentHome =
+            DashboardFragment()
 
         setFragment(fragmentHome)
 

@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
-import com.odonapp.movielite.HomeActivity
+import com.odonapp.movielite.home.HomeActivity
 import com.odonapp.movielite.R
 import com.odonapp.movielite.sign.signup.SignUpActivity
 import com.odonapp.movielite.utils.Preferences

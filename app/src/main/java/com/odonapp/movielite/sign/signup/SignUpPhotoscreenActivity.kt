@@ -21,7 +21,7 @@ import com.karumi.dexter.listener.PermissionDeniedResponse
 import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
-import com.odonapp.movielite.HomeActivity
+import com.odonapp.movielite.home.HomeActivity
 import com.odonapp.movielite.R
 import com.odonapp.movielite.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_up_photoscreen.*

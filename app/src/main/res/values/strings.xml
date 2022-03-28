@@ -24,4 +24,7 @@
     <string name="judul_desc">Cerita nya ini film wah keren pisan lah, ga bisa diceriatain sendiri, pokok nya mah harus ditonton aja lah mumpung sepi di bioskopnya karena covid juga</string>
     <string name="bayar_sekarang">Bayar Sekarang</string>
     <string name="batalkan">Batalkan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
